@@ -5,6 +5,10 @@
     <link rel="icon" type="image/avif" href="images/image.png">
     <title>My portfolio - 'Kumar Shashank'</title>
     <style>
+        ::selection {
+            background-color: red;
+            color: black;
+        }
         a, nav a {
             text-decoration: none;
             font-family: Arial, sans-serif;
@@ -30,7 +34,7 @@
             margin: 20px;
             min-height: 100vh;
             box-sizing: border-box;
-            padding-top: 80px; /* Adjust based on nav height */
+            padding-top: 60px; /* Adjust based on nav height */
         }
         nav {
             top: 7px;
@@ -44,7 +48,6 @@
             padding: 1em;
             text-align: center;
             border-radius: 30px;
-            margin-bottom: 1.5em;
         }
         nav ul {
             list-style: none;
@@ -67,10 +70,6 @@
         nav a:active {
             background-color: black;
             text-decoration: none;
-        }
-        ::selection {
-            background-color: red;
-            color: black;
         }
     </style>
 </head>
